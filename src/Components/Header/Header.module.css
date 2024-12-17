@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  width: 1560px;
+  height: 72px;
+  padding: 0 48px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.container {
+  display: flex;
+  width: 1140px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}

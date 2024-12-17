@@ -1,0 +1,19 @@
+.btn {
+  border-radius: 8px;
+  padding: 12px 18px;
+  width: 416px;
+  height: 48px;
+  background: #3f5da6;
+  margin-top: 40px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  text-align: center;
+  color: #fff;
+}
+
+.btn:active {
+  background-color: #f48fb1;
+}

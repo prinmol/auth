@@ -1,0 +1,23 @@
+.wrapper{
+  width: 480px;
+  height: 394px;
+  flex-shrink: 0;
+  margin: 76px 540px 230px;
+}
+.container {
+  border-radius: 20px;
+  padding: 16px 32px 32px 32px;
+  width: 480px;
+  height: 394px;
+
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.formTab {
+  width: 416px;
+  height: 54px;
+  margin-bottom: 32px;
+}
+
+
+

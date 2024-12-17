@@ -1,0 +1,17 @@
+.btn {
+  display: flex;
+  border-radius: 6px;
+  width: 67px;
+  height: 18px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 135%;
+  text-align: center;
+  color: #3f5da6;
+  flex-shrink: 0;
+}
+.btn:active {
+  color: #f48fb1;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --lpfc-bg-op84: rgba(249, 249, 249, 0.84);
+  --theme-lilac: #9c27b0;
+  --theme-lavender: #9575cd;
+  --theme-pink: #f48fb1;
+  --theme-grapefruit: #ff5722;
+  --theme-amber: #ff9800;
+  --theme-green: #4caf50;
+  --theme-lilac-ov12: #f3e5f6;
+  --theme-lavender-ov12: #f2eef9;
+  --theme-pink-ov12: #fef2f6;
+  --theme-grapefruit-ov12: #ffebe4;
+  --theme-amber-ov12: #fff3e0;
+  --theme-green-ov12: #eaf5ea;
+  --theme-sun: #ffc107;
+  --theme-sun-ov12: #fff8e1;
+
+  --font-family: "Inter", sans-serif;
+}
+
+
+/* Reset and base styles  */
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+  text-decoration: none;
+}
+
+a:hover  {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}

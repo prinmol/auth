@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  width: 287px;
+  height: 36px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.sign {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.text {
+  padding-left: 8px;
+}
+
+
+.sep {
+  display: flex;
+  border: 0.50px solid #ced0d6;
+  width: 36px;
+  height: 0px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+}

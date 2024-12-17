@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  width: 1560px;
+  height: 64px;
+  padding: 0 48px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.container {
+  display: flex;
+  width: 1140px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+.a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 133%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  color: #1a1c1e;
+  text-decoration: none;
+}

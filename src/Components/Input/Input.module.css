@@ -1,0 +1,23 @@
+.input {
+  border: 1.50px solid #999ea4;
+  border-radius: 12px;
+  padding: 0px 4px 0px 16px;
+  width: 416px;
+  height: 56px;
+  min-height: 56px;
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+
+}
+.input::placeholder {
+  width: 416px;
+  height: 24px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  color: #999ea4;
+}
